@@ -12,7 +12,7 @@
 :root {
   --primary: #ec994b;
   --white: #ffffff;
-  --bg: #000000;
+  --bg: #f5f5f5;
 }
 
 html {
@@ -54,7 +54,7 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f9f9f9;
+  background: #000000;
 }
 
 body {
@@ -203,7 +203,7 @@ body {
 }
 
 .tranding-slider-control .slider-arrow {
-  background: var(--white);
+  background: var(--black);
   width: 3.5rem;
   height: 3.5rem;
   border-radius: 50%;
@@ -233,4 +233,4 @@ body {
 
 .tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
   background: var(--primary);
-}
+  }
