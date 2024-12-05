@@ -45,16 +45,16 @@ html {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 1rem;
-  background: #797979;
+  background: #ebfb00;
   transition: all 0.5s ease-in-out;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #222224;
+  background: #ff0000;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f9f9f9;
+  background: #ff00ba;
 }
 
 body {
