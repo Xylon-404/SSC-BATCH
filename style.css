@@ -10,8 +10,8 @@
 }
 
 :root {
-  --primary: #ec994b;
-  --white: #ffffff;
+  --primary: #00fffb;
+  --white: #85ff00;
   --bg: #f5f5f5;
 }
 
@@ -45,12 +45,12 @@ html {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 1rem;
-  background: #f9f9f9;
+  background: #797979;
   transition: all 0.5s ease-in-out;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #f9f9f9;
+  background: #222224;
 }
 
 ::-webkit-scrollbar-track {
@@ -214,7 +214,7 @@ body {
 
 .tranding-slider-control .slider-arrow ion-icon {
   font-size: 2rem;
-  color: #f9f9f9;
+  color: #222224;
 }
 
 .tranding-slider-control .slider-arrow::after {
@@ -233,4 +233,4 @@ body {
 
 .tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
   background: var(--primary);
-}
+  }
