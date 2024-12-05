@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap");
 *,
 *::before,
 *::after {
@@ -54,7 +54,7 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #ffffff;
+  background: #f9f9f9;
 }
 
 body {
@@ -143,7 +143,7 @@ body {
   position: absolute;
   bottom: 2rem;
   left: 2rem;
-  color: var(--red);
+  color: var(--white);
 }
 
 .food-rating {
@@ -203,7 +203,7 @@ body {
 }
 
 .tranding-slider-control .slider-arrow {
-  background: var(--black);
+  background: var(--white);
   width: 3.5rem;
   height: 3.5rem;
   border-radius: 50%;
@@ -214,7 +214,7 @@ body {
 
 .tranding-slider-control .slider-arrow ion-icon {
   font-size: 2rem;
-  color: #ffffff;
+  color: #222224;
 }
 
 .tranding-slider-control .slider-arrow::after {
@@ -232,5 +232,5 @@ body {
 }
 
 .tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
-  background: var(--red);
-  }
+  background: var(--primary);
+}
