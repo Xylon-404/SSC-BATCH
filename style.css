@@ -45,12 +45,12 @@ html {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 1rem;
-  background: #797979;
+  background: #f9f9f9;
   transition: all 0.5s ease-in-out;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #222224;
+  background: #f9f9f9;
 }
 
 ::-webkit-scrollbar-track {
@@ -214,7 +214,7 @@ body {
 
 .tranding-slider-control .slider-arrow ion-icon {
   font-size: 2rem;
-  color: #222224;
+  color: #f9f9f9;
 }
 
 .tranding-slider-control .slider-arrow::after {
