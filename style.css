@@ -54,7 +54,7 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #000000;
+  background: #ffffff;
 }
 
 body {
@@ -143,7 +143,7 @@ body {
   position: absolute;
   bottom: 2rem;
   left: 2rem;
-  color: var(--white);
+  color: var(--red);
 }
 
 .food-rating {
@@ -214,7 +214,7 @@ body {
 
 .tranding-slider-control .slider-arrow ion-icon {
   font-size: 2rem;
-  color: #222224;
+  color: #ffffff;
 }
 
 .tranding-slider-control .slider-arrow::after {
@@ -232,5 +232,5 @@ body {
 }
 
 .tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
-  background: var(--primary);
+  background: var(--red);
   }
