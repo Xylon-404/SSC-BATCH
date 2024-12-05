@@ -13,6 +13,7 @@
   --primary: #00fffb;
   --white: #85ff00;
   --bg: #ff0000;
+  --accentColor: #FFF;
 }
 
 html {
@@ -47,6 +48,27 @@ html {
   border-radius: 1rem;
   background: #ebfb00;
   transition: all 0.5s ease-in-out;
+}
+
+#hashtag {
+    position: relative;
+    padding-bottom: 20px;
+    color: var(--accentColor);
+    font-size: large;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+
+    /*  animation   */
+    overflow: hidden;
+    background: linear-gradient(90deg, var(--bgColor), var(--accentColor), var(--bgColor));
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear var(--delay) infinite;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
 ::-webkit-scrollbar-thumb:hover {
