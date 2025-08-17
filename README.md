@@ -3,4 +3,4 @@
 
 1. **Visit Website:**
 
-    - [![Visit Website](https://img.shields.io/badge/Visit-Website-blue?style=for-the-badge)](https://xylon-404.github.io/SSC-BATCH/)
+    - [![Visit Website](https://img.shields.io/badge/Visit-Website-blue?style=for-the-badge)](https://ssc-batch-2025.netlify.app/)
